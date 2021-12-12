@@ -1,0 +1,1788 @@
+bash: [: C:/Users/LEKHA: binary operator expected
+
+LEKHA NATARAJAN@DESKTOP-8NCE8DB MINGW64 /e/xampp72/htdocs/kerryIndev
+$ git config --global user.name natarajan405
+
+LEKHA NATARAJAN@DESKTOP-8NCE8DB MINGW64 /e/xampp72/htdocs/kerryIndev
+$ git config --global user.email natarajan.a@mapolgroup.com
+
+LEKHA NATARAJAN@DESKTOP-8NCE8DB MINGW64 /e/xampp72/htdocs/kerryIndev
+$ git branch -a
+fatal: not a git repository (or any of the parent directories): .git
+
+LEKHA NATARAJAN@DESKTOP-8NCE8DB MINGW64 /e/xampp72/htdocs/kerryIndev
+$ git branch
+fatal: not a git repository (or any of the parent directories): .git
+
+LEKHA NATARAJAN@DESKTOP-8NCE8DB MINGW64 /e/xampp72/htdocs/kerryIndev
+$ git branch -a
+fatal: not a git repository (or any of the parent directories): .git
+
+LEKHA NATARAJAN@DESKTOP-8NCE8DB MINGW64 /e/xampp72/htdocs/kerryIndev
+$ git init
+Initialized empty Git repository in E:/xampp72/htdocs/kerryIndev/.git/
+
+LEKHA NATARAJAN@DESKTOP-8NCE8DB MINGW64 /e/xampp72/htdocs/kerryIndev (master)
+$ git clone https://github.com/muruganmapol/kerryv2.0.git
+Cloning into 'kerryv2.0'...
+Logon failed, use ctrl+c to cancel basic credential prompt.
+Username for 'https://github.com': natarajan405
+remote: Enumerating objects: 5266, done.
+remote: Counting objects: 100% (5266/5266), done.
+remote: Compressing objects: 100% (2159/2159), done.
+remote: Total 5266 (delta 3206), reused 5048 (delta 2997), pack-reused 0
+Receiving objects: 100% (5266/5266), 48.64 MiB | 1.46 MiB/s, done.
+Resolving deltas: 100% (3206/3206), done.
+Checking out files: 100% (4575/4575), done.
+
+LEKHA NATARAJAN@DESKTOP-8NCE8DB MINGW64 /e/xampp72/htdocs/kerryIndev (master)
+$
+
+rmanikandha1@lenovo.com
+123456
+
+import { DashboardComponent } from './dashboard.component';
+import { MessagingComponent } from './messaging/messaging.component';
+
+
+To set your global username/email configuration:
+Open the command line.
+Set your username: git config --global user.name "FIRST_NAME LAST_NAME"
+Set your email address: git config --global user.email "MY_NAME@example.com"
+
+Project Initiation:
+
+git init
+git clone "PROJECTURL"
+git add 
+git commit -m "Comments of the commit"
+git push
+
+git pull(before push we need to use push)
+
+
+
+git add CONTRIBUTING.md
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+    new file:   README
+    modified:   CONTRIBUTING.md
+	
+	
+	In Unix systems the end of a line is represented with a line feed (LF). In windows a line is represented with a carriage return (CR) and a line feed (LF) thus (CRLF). when you get code from git that was uploaded from a unix system they will only have an LF.
+
+If you are a single developer working on a windows machine, and you don't care that git automatically replaces LFs to CRLFs, you can turn this warning off by typing the following in the git command line
+
+git config core.autocrlf true
+
+
+
+
+For checkout:
+
+git checkout natarajanmapol
+git merge master
+
+
+For Update our code
+
+git checkout natarajanmapol
+git commit -a
+git push
+git checkout master
+git merge natarajanmapol
+git push
+
+https://zepel.io/blog/13-git-commands/
+
+ 
+ 
+ 
+http://192.168.0.81:9093/kerryexpress/client/#/login
+http://192.168.0.81:9093/kerryexpress/backend/public/
+http://192.168.0.81:9093/kerryexpress/api/live_check
+git pull origin master
+========================================
+
+
+For checkout:
+
+git checkout natarajanmapol
+git merge master
+
+
+For Update our code
+
+git checkout natarajanmapol
+git commit -a
+git push
+git checkout master
+git merge natarajanmapol
+git push
+===========================================
+
+
+
+
+
+ git push -d origin natarajmapol
+ 
+ git checkout natarajanmapol
+ git commit -a
+ git push
+ git checkout master
+ git merge natarajanmapol
+ git push
+
+
+
+
+
+
+git pull 
+
+git config --global user.name natarajan405
+git config --global user.email natarajan.a@mapolgroup.com
+git branch -a
+git branch
+git status
+git commit -m "Developer Test"
+git commit -a
+git push --set-upstream origin natarajanmapol
+git merge natarajanmapol
+git push
+git branch
+git checkout master
+git checkout natarajanmapol
+==============================================================================================================================================================================================
+
+
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (master)
+$ git branch
+* master
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (master)
+$ git branch -a
+* master
+  remotes/origin/HEAD -> origin/master
+  remotes/origin/aravindmapol
+  remotes/origin/main
+  remotes/origin/master
+  remotes/origin/muruganmapol
+  remotes/origin/natarajmapol
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (master)
+$ git branch natarajanmapol
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (master)
+$ git branch
+* master
+  natarajanmapol
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (master)
+$ git checkout natarajanmapol
+Switched to branch 'natarajanmapol'
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ git branch
+  master
+* natarajanmapol
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ git status
+On branch natarajanmapol
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   dustbin/alter_query_25122020.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ git commit -m "Developer Test"
+On branch natarajanmapol
+Changes not staged for commit:
+        modified:   dustbin/alter_query_25122020.txt
+
+no changes added to commit
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ git commit -a
+Aborting commit due to empty commit message.
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ git commit -a
+[natarajanmapol 0847530] Developer TEST
+ 1 file changed, 1 insertion(+)
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ git push
+fatal: The current branch natarajanmapol has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin natarajanmapol
+
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ ^C
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ git push --set-upstream origin natarajanmapol
+Logon failed, use ctrl+c to cancel basic credential prompt.
+remote: You must verify your email address.
+remote: See https://github.com/settings/emails.
+fatal: unable to access 'https://github.com/muruganmapol/kerryv2.0.git/': The requested URL returned error: 403
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ git push --set-upstream origin natarajanmapol
+Logon failed, use ctrl+c to cancel basic credential prompt.
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/muruganmapol/kerryv2.0.git/'
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ git push --set-upstream origin natarajanmapol
+Logon failed, use ctrl+c to cancel basic credential prompt.
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 383 bytes | 383.00 KiB/s, done.
+Total 4 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+remote:
+remote: Create a pull request for 'natarajanmapol' on GitHub by visiting:
+remote:      https://github.com/muruganmapol/kerryv2.0/pull/new/natarajanmapol
+remote:
+To https://github.com/muruganmapol/kerryv2.0.git
+ * [new branch]      natarajanmapol -> natarajanmapol
+Branch 'natarajanmapol' set up to track remote branch 'natarajanmapol' from 'origin'.
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ git branch
+  master
+* natarajanmapol
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (master)
+$ git merge natarajanmapol
+Updating a9b2554..0847530
+Fast-forward
+ dustbin/alter_query_25122020.txt | 1 +
+ 1 file changed, 1 insertion(+)
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (master)
+$ git push
+Logon failed, use ctrl+c to cancel basic credential prompt.
+Total 0 (delta 0), reused 0 (delta 0)
+To https://github.com/muruganmapol/kerryv2.0.git
+   a9b2554..0847530  master -> master
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (master)
+$ git checkout natarajanmapol
+Switched to branch 'natarajanmapol'
+Your branch is up to date with 'origin/natarajanmapol'.
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ git branch
+  master
+* natarajanmapol
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (master)
+$ git merge natarajanmapol
+Merge made by the 'recursive' strategy.
+ dustbin/gittest2.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 dustbin/gittest2.txt
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (master)
+$ git checkout master
+Already on 'master'
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (master)
+$ git checkout natarajanmapol
+Switched to branch 'natarajanmapol'
+Your branch is up to date with 'origin/natarajanmapol'.
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ ^C
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (master)
+$ git pull
+Logon failed, use ctrl+c to cancel basic credential prompt.
+Already up to date.
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 4 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   backend/bootstrap/cache/config.php
+        modified:   backend/bootstrap/cache/services.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        backend/bootstrap/cache/packages.php
+        backend/storage/framework/
+        backend/storage/oauth-private.key
+        backend/storage/oauth-public.key
+        backend/vendor/
+        client/node_modules.rar
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (master)
+$ git branch -d natarajamapol
+error: branch 'natarajamapol' not found.
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (master)
+$ git branch -d natarajmapol
+error: branch 'natarajmapol' not found.
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (master)
+$ git branch -a
+* master
+  natarajanmapol
+  remotes/origin/HEAD -> origin/master
+  remotes/origin/aravindmapol
+  remotes/origin/main
+  remotes/origin/master
+  remotes/origin/muruganmapol
+  remotes/origin/natarajanmapol
+  remotes/origin/natarajmapol
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (master)
+$ git branch -d orgin natarajmapol
+error: branch 'orgin' not found.
+error: branch 'natarajmapol' not found.
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (master)
+$ git branch -d origin natarajmapol
+error: branch 'origin' not found.
+error: branch 'natarajmapol' not found.
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (master)
+$ git push -d origin natarajmapol
+Logon failed, use ctrl+c to cancel basic credential prompt.
+mapolTo https://github.com/muruganmapol/kerryv2.0.git
+ - [deleted]         natarajmapol
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 4 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   backend/bootstrap/cache/config.php
+        modified:   backend/bootstrap/cache/services.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        backend/bootstrap/cache/packages.php
+        backend/storage/framework/
+        backend/storage/oauth-private.key
+        backend/storage/oauth-public.key
+        backend/vendor/
+        client/node_modules.rar
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (master)
+$ git branch -a
+* master
+  natarajanmapol
+  remotes/origin/HEAD -> origin/master
+  remotes/origin/aravindmapol
+  remotes/origin/main
+  remotes/origin/master
+  remotes/origin/muruganmapol
+  remotes/origin/natarajanmapol
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (master)
+$ git checkout natarajanmapol
+Switched to branch 'natarajanmapol'
+M       backend/bootstrap/cache/config.php
+M       backend/bootstrap/cache/services.php
+Your branch is up to date with 'origin/natarajanmapol'.
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ vim .gitignore
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ git status
+On branch natarajanmapol
+Your branch is up to date with 'origin/natarajanmapol'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   .gitignore
+        modified:   backend/bootstrap/cache/config.php
+        modified:   backend/bootstrap/cache/services.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        client/node_modules.rar
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ git status
+On branch natarajanmapol
+Your branch is up to date with 'origin/natarajanmapol'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   backend/bootstrap/cache/config.php
+        modified:   backend/bootstrap/cache/services.php
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ ls
+backend/  client/  dustbin/  README.md
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ vim .gitignore
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ vim .gitignore
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ git status
+On branch natarajanmapol
+Your branch is up to date with 'origin/natarajanmapol'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   .gitignore
+        modified:   backend/bootstrap/cache/config.php
+        modified:   backend/bootstrap/cache/services.php
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ vim .gitignore
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ git branch
+  master
+* natarajanmapol
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ git checkout master
+error: Your local changes to the following files would be overwritten by checkout:
+        .gitignore
+Please commit your changes or stash them before you switch branches.
+Aborting
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ git commit -a
+warning: LF will be replaced by CRLF in backend/bootstrap/cache/config.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in backend/bootstrap/cache/services.php.
+The file will have its original line endings in your working directory
+Aborting commit due to empty commit message.
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ vim .gitignore
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ git commit -a
+warning: LF will be replaced by CRLF in backend/bootstrap/cache/config.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in backend/bootstrap/cache/services.php.
+The file will have its original line endings in your working directory
+Aborting commit due to empty commit message.
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ rm -r backend/bootstrap/*
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ git commit -a
+Aborting commit due to empty commit message.
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ git status
+On branch natarajanmapol
+Your branch is up to date with 'origin/natarajanmapol'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   .gitignore
+        deleted:    backend/bootstrap/cache/config.php
+        deleted:    backend/bootstrap/cache/services.php
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ git commit -a
+[natarajanmapol d8cb27c]  Files updated
+ 3 files changed, 3 insertions(+), 1165 deletions(-)
+ delete mode 100644 backend/bootstrap/cache/config.php
+ delete mode 100644 backend/bootstrap/cache/services.php
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ git push
+Logon failed, use ctrl+c to cancel basic credential prompt.
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 582 bytes | 582.00 KiB/s, done.
+Total 5 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To https://github.com/muruganmapol/kerryv2.0.git
+   f39a953..d8cb27c  natarajanmapol -> natarajanmapol
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ git checkout master
+Switched to branch 'master'
+Your branch is ahead of 'origin/master' by 4 commits.
+  (use "git push" to publish your local commits)
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (master)
+$ git merge natarajanmapol
+Removing backend/bootstrap/cache/services.php
+Removing backend/bootstrap/cache/config.php
+Merge made by the 'recursive' strategy.
+ .gitignore                           |   9 +
+ backend/bootstrap/cache/config.php   | 924 -----------------------------------
+ backend/bootstrap/cache/services.php | 241 ---------
+ 3 files changed, 9 insertions(+), 1165 deletions(-)
+ delete mode 100644 backend/bootstrap/cache/config.php
+ delete mode 100644 backend/bootstrap/cache/services.php
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (master)
+$ git push
+Logon failed, use ctrl+c to cancel basic credential prompt.
+Enumerating objects: 16, done.
+Counting objects: 100% (15/15), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (8/8), 890 bytes | 445.00 KiB/s, done.
+Total 8 (delta 5), reused 0 (delta 0)
+remote: Resolving deltas: 100% (5/5), completed with 3 local objects.
+To https://github.com/muruganmapol/kerryv2.0.git
+   a65dca7..debdad2  master -> master
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (master)
+$ git checkout natarajanmapol
+Switched to branch 'natarajanmapol'
+M       backend/packages/cargo/database/migrations/2017_09_04_123729_create_cabookings_table.php
+M       backend/packages/cargo/database/migrations/2020_05_14_155329_create_booking_reports_table.php
+Your branch is up to date with 'origin/natarajanmapol'.
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ git commit -a
+[natarajanmapol 00a84be] new fields added tat,beyond_tat
+ 2 files changed, 5 insertions(+), 1 deletion(-)
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ git push
+Logon failed, use ctrl+c to cancel basic credential prompt.
+Enumerating objects: 17, done.
+Counting objects: 100% (17/17), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (9/9), 753 bytes | 753.00 KiB/s, done.
+Total 9 (delta 6), reused 0 (delta 0)
+remote: Resolving deltas: 100% (6/6), completed with 6 local objects.
+To https://github.com/muruganmapol/kerryv2.0.git
+   d8cb27c..00a84be  natarajanmapol -> natarajanmapol
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (master)
+$ git merget natarajanmapol
+git: 'merget' is not a git command. See 'git --help'.
+
+The most similar commands are
+        merge
+        mergetool
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (master)
+$ git merge natarajanmapol
+Merge made by the 'recursive' strategy.
+ .../database/migrations/2017_09_04_123729_create_cabookings_table.php | 4 +++-
+ .../migrations/2020_05_14_155329_create_booking_reports_table.php     | 2 ++
+ 2 files changed, 5 insertions(+), 1 deletion(-)
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (master)
+$ git push
+Logon failed, use ctrl+c to cancel basic credential prompt.
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 280 bytes | 280.00 KiB/s, done.
+Total 2 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/muruganmapol/kerryv2.0.git
+   debdad2..7f34155  master -> master
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (master)
+$ git checkout natarajanmapol
+Switched to branch 'natarajanmapol'
+M       dustbin/alter_query_25122020.txt
+Your branch is up to date with 'origin/natarajanmapol'.
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ git commit -a
+[natarajanmapol cfdea7d] alter query update
+ 1 file changed, 28 insertions(+), 26 deletions(-)
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ git push
+Logon failed, use ctrl+c to cancel basic credential prompt.
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 670 bytes | 670.00 KiB/s, done.
+Total 4 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To https://github.com/muruganmapol/kerryv2.0.git
+   00a84be..cfdea7d  natarajanmapol -> natarajanmapol
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (master)
+$ git merge natarajanmapol
+Merge made by the 'recursive' strategy.
+ dustbin/alter_query_25122020.txt | 54 +++++++++++++++++++++-------------------
+ 1 file changed, 28 insertions(+), 26 deletions(-)
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (master)
+$ git push
+Logon failed, use ctrl+c to cancel basic credential prompt.
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 403 bytes | 403.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/muruganmapol/kerryv2.0.git
+   7f34155..d5686ea  master -> master
+
+
+
+==================================================================================================================================================
+
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (master)
+$ git branch
+* master
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (master)
+$ git branch -a
+* master
+  remotes/origin/HEAD -> origin/master
+  remotes/origin/aravindmapol
+  remotes/origin/main
+  remotes/origin/master
+  remotes/origin/muruganmapol
+  remotes/origin/natarajmapol
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (master)
+$ git branch natarajanmapol
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (master)
+$ git branch
+* master
+  natarajanmapol
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (master)
+$ git checkout natarajanmapol
+Switched to branch 'natarajanmapol'
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ git branch
+  master
+* natarajanmapol
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ git status
+On branch natarajanmapol
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   dustbin/alter_query_25122020.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ git commit -m "Developer Test"
+On branch natarajanmapol
+Changes not staged for commit:
+        modified:   dustbin/alter_query_25122020.txt
+
+no changes added to commit
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ git commit -a
+Aborting commit due to empty commit message.
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ git commit -a
+[natarajanmapol 0847530] Developer TEST
+ 1 file changed, 1 insertion(+)
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ git push
+fatal: The current branch natarajanmapol has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin natarajanmapol
+
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ ^C
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ git push --set-upstream origin natarajanmapol
+Logon failed, use ctrl+c to cancel basic credential prompt.
+remote: You must verify your email address.
+remote: See https://github.com/settings/emails.
+fatal: unable to access 'https://github.com/muruganmapol/kerryv2.0.git/': The requested URL returned error: 403
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ git push --set-upstream origin natarajanmapol
+Logon failed, use ctrl+c to cancel basic credential prompt.
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/muruganmapol/kerryv2.0.git/'
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ git push --set-upstream origin natarajanmapol
+Logon failed, use ctrl+c to cancel basic credential prompt.
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 383 bytes | 383.00 KiB/s, done.
+Total 4 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+remote:
+remote: Create a pull request for 'natarajanmapol' on GitHub by visiting:
+remote:      https://github.com/muruganmapol/kerryv2.0/pull/new/natarajanmapol
+remote:
+To https://github.com/muruganmapol/kerryv2.0.git
+ * [new branch]      natarajanmapol -> natarajanmapol
+Branch 'natarajanmapol' set up to track remote branch 'natarajanmapol' from 'origin'.
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ git branch
+  master
+* natarajanmapol
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (master)
+$ git merge natarajanmapol
+Updating a9b2554..0847530
+Fast-forward
+ dustbin/alter_query_25122020.txt | 1 +
+ 1 file changed, 1 insertion(+)
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (master)
+$ git push
+Logon failed, use ctrl+c to cancel basic credential prompt.
+Total 0 (delta 0), reused 0 (delta 0)
+To https://github.com/muruganmapol/kerryv2.0.git
+   a9b2554..0847530  master -> master
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (master)
+$ git checkout natarajanmapol
+Switched to branch 'natarajanmapol'
+Your branch is up to date with 'origin/natarajanmapol'.
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ git branch
+  master
+* natarajanmapol
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (master)
+$ git merge natarajanmapol
+Merge made by the 'recursive' strategy.
+ dustbin/gittest2.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 dustbin/gittest2.txt
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (master)
+$ git checkout master
+Already on 'master'
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (master)
+$ git checkout natarajanmapol
+Switched to branch 'natarajanmapol'
+Your branch is up to date with 'origin/natarajanmapol'.
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ ^C
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (master)
+$ git pull
+Logon failed, use ctrl+c to cancel basic credential prompt.
+Already up to date.
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 4 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   backend/bootstrap/cache/config.php
+        modified:   backend/bootstrap/cache/services.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        backend/bootstrap/cache/packages.php
+        backend/storage/framework/
+        backend/storage/oauth-private.key
+        backend/storage/oauth-public.key
+        backend/vendor/
+        client/node_modules.rar
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (master)
+$ git branch -d natarajamapol
+error: branch 'natarajamapol' not found.
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (master)
+$ git branch -d natarajmapol
+error: branch 'natarajmapol' not found.
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (master)
+$ git branch -a
+* master
+  natarajanmapol
+  remotes/origin/HEAD -> origin/master
+  remotes/origin/aravindmapol
+  remotes/origin/main
+  remotes/origin/master
+  remotes/origin/muruganmapol
+  remotes/origin/natarajanmapol
+  remotes/origin/natarajmapol
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (master)
+$ git branch -d orgin natarajmapol
+error: branch 'orgin' not found.
+error: branch 'natarajmapol' not found.
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (master)
+$ git branch -d origin natarajmapol
+error: branch 'origin' not found.
+error: branch 'natarajmapol' not found.
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (master)
+$ git push -d origin natarajmapol
+Logon failed, use ctrl+c to cancel basic credential prompt.
+mapolTo https://github.com/muruganmapol/kerryv2.0.git
+ - [deleted]         natarajmapol
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 4 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   backend/bootstrap/cache/config.php
+        modified:   backend/bootstrap/cache/services.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        backend/bootstrap/cache/packages.php
+        backend/storage/framework/
+        backend/storage/oauth-private.key
+        backend/storage/oauth-public.key
+        backend/vendor/
+        client/node_modules.rar
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (master)
+$ git branch -a
+* master
+  natarajanmapol
+  remotes/origin/HEAD -> origin/master
+  remotes/origin/aravindmapol
+  remotes/origin/main
+  remotes/origin/master
+  remotes/origin/muruganmapol
+  remotes/origin/natarajanmapol
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (master)
+$ git checkout natarajanmapol
+Switched to branch 'natarajanmapol'
+M       backend/bootstrap/cache/config.php
+M       backend/bootstrap/cache/services.php
+Your branch is up to date with 'origin/natarajanmapol'.
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ vim .gitignore
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ git status
+On branch natarajanmapol
+Your branch is up to date with 'origin/natarajanmapol'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   .gitignore
+        modified:   backend/bootstrap/cache/config.php
+        modified:   backend/bootstrap/cache/services.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        client/node_modules.rar
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ git status
+On branch natarajanmapol
+Your branch is up to date with 'origin/natarajanmapol'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   backend/bootstrap/cache/config.php
+        modified:   backend/bootstrap/cache/services.php
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ ls
+backend/  client/  dustbin/  README.md
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ vim .gitignore
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ vim .gitignore
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ git status
+On branch natarajanmapol
+Your branch is up to date with 'origin/natarajanmapol'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   .gitignore
+        modified:   backend/bootstrap/cache/config.php
+        modified:   backend/bootstrap/cache/services.php
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ vim .gitignore
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ git branch
+  master
+* natarajanmapol
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ git checkout master
+error: Your local changes to the following files would be overwritten by checkout:
+        .gitignore
+Please commit your changes or stash them before you switch branches.
+Aborting
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ git commit -a
+warning: LF will be replaced by CRLF in backend/bootstrap/cache/config.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in backend/bootstrap/cache/services.php.
+The file will have its original line endings in your working directory
+Aborting commit due to empty commit message.
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ vim .gitignore
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ git commit -a
+warning: LF will be replaced by CRLF in backend/bootstrap/cache/config.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in backend/bootstrap/cache/services.php.
+The file will have its original line endings in your working directory
+Aborting commit due to empty commit message.
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ rm -r backend/bootstrap/*
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ git commit -a
+Aborting commit due to empty commit message.
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ git status
+On branch natarajanmapol
+Your branch is up to date with 'origin/natarajanmapol'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   .gitignore
+        deleted:    backend/bootstrap/cache/config.php
+        deleted:    backend/bootstrap/cache/services.php
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ git commit -a
+[natarajanmapol d8cb27c]  Files updated
+ 3 files changed, 3 insertions(+), 1165 deletions(-)
+ delete mode 100644 backend/bootstrap/cache/config.php
+ delete mode 100644 backend/bootstrap/cache/services.php
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ git push
+Logon failed, use ctrl+c to cancel basic credential prompt.
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 582 bytes | 582.00 KiB/s, done.
+Total 5 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To https://github.com/muruganmapol/kerryv2.0.git
+   f39a953..d8cb27c  natarajanmapol -> natarajanmapol
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ git checkout master
+Switched to branch 'master'
+Your branch is ahead of 'origin/master' by 4 commits.
+  (use "git push" to publish your local commits)
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (master)
+$ git merge natarajanmapol
+Removing backend/bootstrap/cache/services.php
+Removing backend/bootstrap/cache/config.php
+Merge made by the 'recursive' strategy.
+ .gitignore                           |   9 +
+ backend/bootstrap/cache/config.php   | 924 -----------------------------------
+ backend/bootstrap/cache/services.php | 241 ---------
+ 3 files changed, 9 insertions(+), 1165 deletions(-)
+ delete mode 100644 backend/bootstrap/cache/config.php
+ delete mode 100644 backend/bootstrap/cache/services.php
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (master)
+$ git push
+Logon failed, use ctrl+c to cancel basic credential prompt.
+Enumerating objects: 16, done.
+Counting objects: 100% (15/15), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (8/8), 890 bytes | 445.00 KiB/s, done.
+Total 8 (delta 5), reused 0 (delta 0)
+remote: Resolving deltas: 100% (5/5), completed with 3 local objects.
+To https://github.com/muruganmapol/kerryv2.0.git
+   a65dca7..debdad2  master -> master
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (master)
+$ git checkout natarajanmapol
+Switched to branch 'natarajanmapol'
+M       backend/packages/cargo/database/migrations/2017_09_04_123729_create_cabookings_table.php
+M       backend/packages/cargo/database/migrations/2020_05_14_155329_create_booking_reports_table.php
+Your branch is up to date with 'origin/natarajanmapol'.
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ git commit -a
+[natarajanmapol 00a84be] new fields added tat,beyond_tat
+ 2 files changed, 5 insertions(+), 1 deletion(-)
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ git push
+Logon failed, use ctrl+c to cancel basic credential prompt.
+Enumerating objects: 17, done.
+Counting objects: 100% (17/17), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (9/9), 753 bytes | 753.00 KiB/s, done.
+Total 9 (delta 6), reused 0 (delta 0)
+remote: Resolving deltas: 100% (6/6), completed with 6 local objects.
+To https://github.com/muruganmapol/kerryv2.0.git
+   d8cb27c..00a84be  natarajanmapol -> natarajanmapol
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (master)
+$ git merget natarajanmapol
+git: 'merget' is not a git command. See 'git --help'.
+
+The most similar commands are
+        merge
+        mergetool
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (master)
+$ git merge natarajanmapol
+Merge made by the 'recursive' strategy.
+ .../database/migrations/2017_09_04_123729_create_cabookings_table.php | 4 +++-
+ .../migrations/2020_05_14_155329_create_booking_reports_table.php     | 2 ++
+ 2 files changed, 5 insertions(+), 1 deletion(-)
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (master)
+$ git push
+Logon failed, use ctrl+c to cancel basic credential prompt.
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 280 bytes | 280.00 KiB/s, done.
+Total 2 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/muruganmapol/kerryv2.0.git
+   debdad2..7f34155  master -> master
+
+
+
+
+========================================================================================================
+
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (master)
+$ git branch
+* master
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (master)
+$ git branch -a
+* master
+  remotes/origin/HEAD -> origin/master
+  remotes/origin/aravindmapol
+  remotes/origin/main
+  remotes/origin/master
+  remotes/origin/muruganmapol
+  remotes/origin/natarajmapol
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (master)
+$ git branch natarajanmapol
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (master)
+$ git branch
+* master
+  natarajanmapol
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (master)
+$ git checkout natarajanmapol
+Switched to branch 'natarajanmapol'
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ git branch
+  master
+* natarajanmapol
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ git status
+On branch natarajanmapol
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   dustbin/alter_query_25122020.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ git commit -m "Developer Test"
+On branch natarajanmapol
+Changes not staged for commit:
+        modified:   dustbin/alter_query_25122020.txt
+
+no changes added to commit
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ git commit -a
+Aborting commit due to empty commit message.
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ git commit -a
+[natarajanmapol 0847530] Developer TEST
+ 1 file changed, 1 insertion(+)
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ git push
+fatal: The current branch natarajanmapol has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin natarajanmapol
+
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ ^C
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ git push --set-upstream origin natarajanmapol
+Logon failed, use ctrl+c to cancel basic credential prompt.
+remote: You must verify your email address.
+remote: See https://github.com/settings/emails.
+fatal: unable to access 'https://github.com/muruganmapol/kerryv2.0.git/': The requested URL returned error: 403
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ git push --set-upstream origin natarajanmapol
+Logon failed, use ctrl+c to cancel basic credential prompt.
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/muruganmapol/kerryv2.0.git/'
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ git push --set-upstream origin natarajanmapol
+Logon failed, use ctrl+c to cancel basic credential prompt.
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 383 bytes | 383.00 KiB/s, done.
+Total 4 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+remote:
+remote: Create a pull request for 'natarajanmapol' on GitHub by visiting:
+remote:      https://github.com/muruganmapol/kerryv2.0/pull/new/natarajanmapol
+remote:
+To https://github.com/muruganmapol/kerryv2.0.git
+ * [new branch]      natarajanmapol -> natarajanmapol
+Branch 'natarajanmapol' set up to track remote branch 'natarajanmapol' from 'origin'.
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ git branch
+  master
+* natarajanmapol
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (master)
+$ git merge natarajanmapol
+Updating a9b2554..0847530
+Fast-forward
+ dustbin/alter_query_25122020.txt | 1 +
+ 1 file changed, 1 insertion(+)
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (master)
+$ git push
+Logon failed, use ctrl+c to cancel basic credential prompt.
+Total 0 (delta 0), reused 0 (delta 0)
+To https://github.com/muruganmapol/kerryv2.0.git
+   a9b2554..0847530  master -> master
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (master)
+$ git checkout natarajanmapol
+Switched to branch 'natarajanmapol'
+Your branch is up to date with 'origin/natarajanmapol'.
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ git branch
+  master
+* natarajanmapol
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (master)
+$ git merge natarajanmapol
+Merge made by the 'recursive' strategy.
+ dustbin/gittest2.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 dustbin/gittest2.txt
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (master)
+$ git checkout master
+Already on 'master'
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (master)
+$ git checkout natarajanmapol
+Switched to branch 'natarajanmapol'
+Your branch is up to date with 'origin/natarajanmapol'.
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ ^C
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (master)
+$ git pull
+Logon failed, use ctrl+c to cancel basic credential prompt.
+Already up to date.
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 4 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   backend/bootstrap/cache/config.php
+        modified:   backend/bootstrap/cache/services.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        backend/bootstrap/cache/packages.php
+        backend/storage/framework/
+        backend/storage/oauth-private.key
+        backend/storage/oauth-public.key
+        backend/vendor/
+        client/node_modules.rar
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (master)
+$ git branch -d natarajamapol
+error: branch 'natarajamapol' not found.
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (master)
+$ git branch -d natarajmapol
+error: branch 'natarajmapol' not found.
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (master)
+$ git branch -a
+* master
+  natarajanmapol
+  remotes/origin/HEAD -> origin/master
+  remotes/origin/aravindmapol
+  remotes/origin/main
+  remotes/origin/master
+  remotes/origin/muruganmapol
+  remotes/origin/natarajanmapol
+  remotes/origin/natarajmapol
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (master)
+$ git branch -d orgin natarajmapol
+error: branch 'orgin' not found.
+error: branch 'natarajmapol' not found.
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (master)
+$ git branch -d origin natarajmapol
+error: branch 'origin' not found.
+error: branch 'natarajmapol' not found.
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (master)
+$ git push -d origin natarajmapol
+Logon failed, use ctrl+c to cancel basic credential prompt.
+mapolTo https://github.com/muruganmapol/kerryv2.0.git
+ - [deleted]         natarajmapol
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 4 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   backend/bootstrap/cache/config.php
+        modified:   backend/bootstrap/cache/services.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        backend/bootstrap/cache/packages.php
+        backend/storage/framework/
+        backend/storage/oauth-private.key
+        backend/storage/oauth-public.key
+        backend/vendor/
+        client/node_modules.rar
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (master)
+$ git branch -a
+* master
+  natarajanmapol
+  remotes/origin/HEAD -> origin/master
+  remotes/origin/aravindmapol
+  remotes/origin/main
+  remotes/origin/master
+  remotes/origin/muruganmapol
+  remotes/origin/natarajanmapol
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (master)
+$ git checkout natarajanmapol
+Switched to branch 'natarajanmapol'
+M       backend/bootstrap/cache/config.php
+M       backend/bootstrap/cache/services.php
+Your branch is up to date with 'origin/natarajanmapol'.
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ vim .gitignore
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ git status
+On branch natarajanmapol
+Your branch is up to date with 'origin/natarajanmapol'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   .gitignore
+        modified:   backend/bootstrap/cache/config.php
+        modified:   backend/bootstrap/cache/services.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        client/node_modules.rar
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ git status
+On branch natarajanmapol
+Your branch is up to date with 'origin/natarajanmapol'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   backend/bootstrap/cache/config.php
+        modified:   backend/bootstrap/cache/services.php
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ ls
+backend/  client/  dustbin/  README.md
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ vim .gitignore
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ vim .gitignore
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ git status
+On branch natarajanmapol
+Your branch is up to date with 'origin/natarajanmapol'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   .gitignore
+        modified:   backend/bootstrap/cache/config.php
+        modified:   backend/bootstrap/cache/services.php
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ vim .gitignore
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ git branch
+  master
+* natarajanmapol
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ git checkout master
+error: Your local changes to the following files would be overwritten by checkout:
+        .gitignore
+Please commit your changes or stash them before you switch branches.
+Aborting
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ git commit -a
+warning: LF will be replaced by CRLF in backend/bootstrap/cache/config.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in backend/bootstrap/cache/services.php.
+The file will have its original line endings in your working directory
+Aborting commit due to empty commit message.
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ vim .gitignore
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ git commit -a
+warning: LF will be replaced by CRLF in backend/bootstrap/cache/config.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in backend/bootstrap/cache/services.php.
+The file will have its original line endings in your working directory
+Aborting commit due to empty commit message.
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ rm -r backend/bootstrap/*
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ git commit -a
+Aborting commit due to empty commit message.
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ git status
+On branch natarajanmapol
+Your branch is up to date with 'origin/natarajanmapol'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   .gitignore
+        deleted:    backend/bootstrap/cache/config.php
+        deleted:    backend/bootstrap/cache/services.php
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ git commit -a
+[natarajanmapol d8cb27c]  Files updated
+ 3 files changed, 3 insertions(+), 1165 deletions(-)
+ delete mode 100644 backend/bootstrap/cache/config.php
+ delete mode 100644 backend/bootstrap/cache/services.php
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ git push
+Logon failed, use ctrl+c to cancel basic credential prompt.
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 582 bytes | 582.00 KiB/s, done.
+Total 5 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To https://github.com/muruganmapol/kerryv2.0.git
+   f39a953..d8cb27c  natarajanmapol -> natarajanmapol
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ git checkout master
+Switched to branch 'master'
+Your branch is ahead of 'origin/master' by 4 commits.
+  (use "git push" to publish your local commits)
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (master)
+$ git merge natarajanmapol
+Removing backend/bootstrap/cache/services.php
+Removing backend/bootstrap/cache/config.php
+Merge made by the 'recursive' strategy.
+ .gitignore                           |   9 +
+ backend/bootstrap/cache/config.php   | 924 -----------------------------------
+ backend/bootstrap/cache/services.php | 241 ---------
+ 3 files changed, 9 insertions(+), 1165 deletions(-)
+ delete mode 100644 backend/bootstrap/cache/config.php
+ delete mode 100644 backend/bootstrap/cache/services.php
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (master)
+$ git push
+Logon failed, use ctrl+c to cancel basic credential prompt.
+Enumerating objects: 16, done.
+Counting objects: 100% (15/15), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (8/8), 890 bytes | 445.00 KiB/s, done.
+Total 8 (delta 5), reused 0 (delta 0)
+remote: Resolving deltas: 100% (5/5), completed with 3 local objects.
+To https://github.com/muruganmapol/kerryv2.0.git
+   a65dca7..debdad2  master -> master
+
+
+
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (master)
+$ git branch
+* master
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (master)
+$ git branch -a
+* master
+  remotes/origin/HEAD -> origin/master
+  remotes/origin/aravindmapol
+  remotes/origin/main
+  remotes/origin/master
+  remotes/origin/muruganmapol
+  remotes/origin/natarajmapol
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (master)
+$ git branch natarajanmapol
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (master)
+$ git branch
+* master
+  natarajanmapol
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (master)
+$ git checkout natarajanmapol
+Switched to branch 'natarajanmapol'
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ git branch
+  master
+* natarajanmapol
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ git status
+On branch natarajanmapol
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   dustbin/alter_query_25122020.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ git commit -m "Developer Test"
+On branch natarajanmapol
+Changes not staged for commit:
+        modified:   dustbin/alter_query_25122020.txt
+
+no changes added to commit
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ git commit -a
+Aborting commit due to empty commit message.
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ git commit -a
+[natarajanmapol 0847530] Developer TEST
+ 1 file changed, 1 insertion(+)
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ git push
+fatal: The current branch natarajanmapol has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin natarajanmapol
+
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ ^C
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ git push --set-upstream origin natarajanmapol
+Logon failed, use ctrl+c to cancel basic credential prompt.
+remote: You must verify your email address.
+remote: See https://github.com/settings/emails.
+fatal: unable to access 'https://github.com/muruganmapol/kerryv2.0.git/': The requested URL returned error: 403
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ git push --set-upstream origin natarajanmapol
+Logon failed, use ctrl+c to cancel basic credential prompt.
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/muruganmapol/kerryv2.0.git/'
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ git push --set-upstream origin natarajanmapol
+Logon failed, use ctrl+c to cancel basic credential prompt.
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 383 bytes | 383.00 KiB/s, done.
+Total 4 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+remote:
+remote: Create a pull request for 'natarajanmapol' on GitHub by visiting:
+remote:      https://github.com/muruganmapol/kerryv2.0/pull/new/natarajanmapol
+remote:
+To https://github.com/muruganmapol/kerryv2.0.git
+ * [new branch]      natarajanmapol -> natarajanmapol
+Branch 'natarajanmapol' set up to track remote branch 'natarajanmapol' from 'origin'.
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ git branch
+  master
+* natarajanmapol
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (master)
+$ git merge natarajanmapol
+Updating a9b2554..0847530
+Fast-forward
+ dustbin/alter_query_25122020.txt | 1 +
+ 1 file changed, 1 insertion(+)
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (master)
+$ git push
+Logon failed, use ctrl+c to cancel basic credential prompt.
+Total 0 (delta 0), reused 0 (delta 0)
+To https://github.com/muruganmapol/kerryv2.0.git
+   a9b2554..0847530  master -> master
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (master)
+$ git checkout natarajanmapol
+Switched to branch 'natarajanmapol'
+Your branch is up to date with 'origin/natarajanmapol'.
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ git branch
+  master
+* natarajanmapol
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$ git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (master)
+$ git merge natarajanmapol
+Merge made by the 'recursive' strategy.
+ dustbin/gittest2.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 dustbin/gittest2.txt
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (master)
+$ git checkout master
+Already on 'master'
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (master)
+$ git checkout natarajanmapol
+Switched to branch 'natarajanmapol'
+Your branch is up to date with 'origin/natarajanmapol'.
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$

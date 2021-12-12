@@ -1,0 +1,87 @@
+
+git pull origin master
+========================================
+
+
+For checkout:
+
+git checkout natarajanmapol
+git merge master
+
+
+For Update our code
+
+git checkout natarajanmapol
+git commit -a
+git push
+git checkout master
+git merge natarajanmapol
+git push
+===========================================
+
+
+
+
+
+ git push -d origin natarajmapol
+ 
+ git checkout natarajanmapol
+ git commit -a
+ git push
+ git checkout master
+ git merge natarajanmapol
+ git push
+
+
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (master)
+$ git checkout -f natarajanmapol
+Switched to branch 'natarajanmapol'
+Your branch is up to date with 'origin/natarajanmapol'.
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$  git commit -a
+On branch natarajanmapol
+Your branch is up to date with 'origin/natarajanmapol'.
+
+Untracked files:
+        backend/public/img/bookingcsv/
+        backend/public/img/pod/
+
+nothing added to commit but untracked files present
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$  git push
+Logon failed, use ctrl+c to cancel basic credential prompt.
+mapolEverything up-to-date
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)
+$  git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (master)
+$  git merge natarajanmapol
+Updating 0b5dd61..a4dd88c
+Fast-forward
+ .../app/Http/Controllers/CustomerPincodeGroupController.php |  3 ++-
+ backend/app/Http/Controllers/PincodeProductController.php   |  2 +-
+ backend/app/Http/Controllers/VehicleController.php          | 12 +++++++++++-
+ backend/app/Models/CustomerPincodeGroup.php                 | 13 +++++++++++++
+ .../customer-pincode-groups.component.html                  |  8 ++++++--
+ .../customer-pincode-groups.component.ts                    |  3 ---
+ 6 files changed, 33 insertions(+), 8 deletions(-)
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (master)
+$  git push
+Logon failed, use ctrl+c to cancel basic credential prompt.
+Total 0 (delta 0), reused 0 (delta 0)
+To https://github.com/muruganmapol/kerryv2.0.git
+   0b5dd61..a4dd88c  master -> master
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (master)
+$ git checkout natarajanmapol
+Switched to branch 'natarajanmapol'
+Your branch is up to date with 'origin/natarajanmapol'.
+
+MAPOL_PCMA103+ADMIN@MAPOL_PCMA103 MINGW64 /e/xampp/htdocs/kerryIndev (natarajanmapol)

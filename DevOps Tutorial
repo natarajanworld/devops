@@ -1,0 +1,8 @@
+https://www.javatpoint.com/devops
+
+git checkout master
+git pull
+git merge natarajanmapol
+git push
+git checkout natarajanmapol
+git merge master
